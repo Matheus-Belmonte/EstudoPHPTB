@@ -1,3 +1,16 @@
+<?php
+
+if ($_POST {"login"} == "admin" && $_POST {"senha"} == "senha");  {
+    session_start();
+    $_SESSION["login"] = $_POST["login"];
+    
+} else {
+    echo "<script>alert('Usuário ou senha inválidos!');</script>";
+}
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
